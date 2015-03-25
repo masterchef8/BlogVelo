@@ -1,0 +1,49 @@
+label
+{
+    display : block;
+    margin-top : 5vh;
+    margin-left : 4vw;
+}
+textarea
+{
+    width : 20vw;
+    height : 10vh;
+    max-width : 80vw;
+    max-height : 50vh;
+    min-width : 15vw;
+    min-height : 5vh;
+}
+
+#zone-titre{
+    border-radius: 10px;
+    width: 90%;
+    height: 30px;
+    font-size: 20px;
+}
+#zone-resume{
+    border-radius: 10px;
+    width: 90%;
+    height: 150px;
+
+}
+#zone-article{
+    border-radius: 10px;
+    width: 90%;
+    height: 300px;
+
+}
+input, textarea
+{
+    margin-left : 3vw;
+}
+#article-button
+{
+    display : block;
+   margin: auto;
+}
+
+span{
+    display: inline-block;
+    width: 100%;
+
+}

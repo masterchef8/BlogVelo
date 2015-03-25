@@ -111,7 +111,7 @@ nav > a { /* */
                     Section
 -------------------------------------------------------
 */
-
+#about{padding: 10px;}
 #form-login{
     display: inline-block;
 }
