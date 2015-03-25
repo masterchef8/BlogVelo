@@ -55,10 +55,13 @@ em, i {font-style: italic;}
 nav ul {
     background-color: #7181c7;
     border-radius: 5px;
-    width: 69.9%;
+    width: 98%;
 
 }
+#form-list {
+    float: right;
 
+}
 #menu > * { /* Applicable à tout le menu ! */
     
 }
@@ -109,6 +112,14 @@ nav > a { /* */
 -------------------------------------------------------
 */
 
+#form-login{
+    display: inline-block;
+}
+
+#page-article{
+    padding: 5px;
+}
+
 #post-list a:link, #post-list a:visited{
     color: #7f5436;
 }
@@ -157,12 +168,40 @@ header.article, footer.footer-article{
     width: 190px;
 }
 
+.form-span{
+    width: 100%;
+    display: inline-block;
+}
+
+label
+{
+    margin-top : 5vh;
+    margin-left : 4vw;
+}
+
+input
+{
+    margin-left : 3vw;
+}
+button
+{
+    display : block;
+    border-radius: 5px;
+    margin-left: 40px;
+    padding: 5px;
+}
+
+
+
+
 /*
 -------------------------------------------------------
                     Footer
 -------------------------------------------------------
 */
-
+#contentinfo{
+    padding: 5px;
+}
 #contentinfo a:link, #contentinfo a:visited{
     color: #7f5436;
 }
