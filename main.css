@@ -87,7 +87,7 @@ height: 160px;
 }
 
 nav {
-    width: 69,9%;
+    width: 69.9%;
 
 }
 
@@ -96,7 +96,6 @@ nav {
 }
 
 nav ul { /* Applicable à toute les listes */
-    background-color: ;
     padding:0.5em;
     margin:0; /* Remove margin and padding */
     list-style: none; /* Remove dot before <li> */
