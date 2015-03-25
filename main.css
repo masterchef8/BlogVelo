@@ -1,0 +1,164 @@
+/*
+  Name: BlogVelo
+  First realise date : March 2015
+  Description: sample web project for web prog classes
+  Version: 1.0
+  Author: Theo Bodin (lol) & Philippe Giraudeau
+  URL : projetinfo.eu
+*/
+
+
+/* Global stylesheet */
+::selection {background: #F6CF74; color: #fff;}
+
+
+header, section, footer,
+aside, article {
+    background: #ffffff;
+    margin: 15px;
+    display: block;
+    border-radius: 5px;
+}
+
+
+body {
+    background: #F5F4EF;
+    color: black;
+    font-family: 'Gudea', sans-serif;
+    line-height: 1.4;
+    margin: 0 15% 0 15%;
+    padding: 0;
+    text-align: left;
+    width: 70%;
+}
+a:link, a:visited {
+    color: #C74350;
+    padding: 0 1px;
+    text-decoration: none;
+}
+a:hover, a:active {
+    background-color: #C74350;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Paragraphs */
+p {margin-bottom: 1.143em;}
+* p:last-child {margin-bottom: 0;}
+
+q {font-style: italic;}
+strong, b {font-weight: bold;}
+em, i {font-style: italic;}
+
+
+
+/*  Header */
+#banner  {
+
+height: 160px;
+}
+
+/* Banner */
+#banner h1{
+    font-size: 2.571em;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+#banner h1 a:link, #banner h1 a:visited {
+    color: #000305;
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+    width: 427px;
+}
+#banner h1 a:hover, #banner h1 a:active {
+    background: none;
+    color: #C74350;
+    text-shadow: none;
+}
+
+
+#logo img { /* le logo fait à la base 474 × 181 */
+    float: left;
+    width: 237px;
+    height: 90px;
+
+}
+
+nav {
+    width: 69,9%;
+
+}
+
+#menu > * { /* Applicable à tout le menu ! */
+    
+}
+
+nav ul { /* Applicable à toute les listes */
+    background-color: ;
+    padding:0.5em;
+    margin:0; /* Remove margin and padding */
+    list-style: none; /* Remove dot before <li> */
+}
+
+nav li ul { /* Applicable à la deuxième liste */
+
+    position: absolute; /* On élimine le lien de la liste par rapport au reste du
+												menu.Il s'affiche par défaut là où il devrait etre */
+    display: none;
+    margin-left: -7px;
+    margin-top: 1px;
+
+}
+
+#menu > li{ /* Applicable aux élèments de la première liste */
+    
+    display: inline-block;
+    padding:0px 10px 0px 10px; /* add marge between the border and the <li> */
+    margin: -3px;
+}
+
+
+nav > ul li li{ /* Applicable aux élèment d'une sous liste */
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+nav ul li:hover ul{ /* Quand on passe le curseur sur un élèment d'une liste
+											possédant une sous liste*/
+    display: block;
+}
+
+nav a { /* */
+    color: #fffdfe;
+
+}
+
+/*
+-------------------------------------------------------
+                    Section
+-------------------------------------------------------
+*/
+
+section{
+    padding: 5px;
+}
+header.article, footer.footer-article{
+    background: none;
+    border-radius: 0;
+}
+
+#articles:hover article:hover {
+    background: #C64350;
+
+}
+
+#post-list{
+    list-style: none;
+}
+
+.entree{
+
+
+}
