@@ -12,196 +12,190 @@
 ::selection {background: #F6CF74; color: #fff;}
 
 
-header, section, footer,
-aside, article {
-    background: #ffffff;
-    margin: 15px;
-    display: block;
-    border-radius: 5px;
+/*
+-------------------------------------------------------
+                 Responsive design
+-------------------------------------------------------
+*/
+@media (max-width: 1024px) {
+
+/*div.comments, footer.footer-article, footer p, footer em, span.comment-body{
+	display : none;
+}*/
+#post-list .entree{
+	position : relative;
+	padding-right : -10px;
 }
-
-
-body {
-    background: #F5F4EF;
-    color: black;
-    font-family: 'Gudea', sans-serif;
-    line-height: 1.4;
-    margin: 0 15% 0 15%;
-    padding: 0;
-    text-align: left;
-    width: 70%;
+section#article, ul#postlist, li.entree, article{
+	margin : 5px;
 }
-a:link, a:visited {
-    color: #fffdfe;
-    padding: 0 1px;
-    text-decoration: none;
+input[placeholder="Search"]{
+	display : none;
 }
-a:hover, a:active {
-    background-color: #8e9bc7;
-    border-radius: 3px;
-    color: #000000;
-    text-decoration: none;
+body{
+width : 100%;
+margin : none;
 }
-
-/* Paragraphs */
-p {margin-bottom: 1.143em;}
-* p:last-child {margin-bottom: 0;}
-
-q {font-style: italic;}
-strong, b {font-weight: bold;}
-em, i {font-style: italic;}
-
-
-nav ul {
-    background-color: #7181c7;
-    border-radius: 5px;
-    width: 98%;
-
-}
-#form-list {
-    float: right;
-
-}
-#menu > * { /* Applicable à tout le menu ! */
-    
-}
-
-nav ul { /* Applicable à toute les listes */
-    padding:0.5em;
-    margin:0; /* Remove margin and padding */
-    list-style: none; /* Remove dot before <li> */
-}
-
-nav li ul { /* Applicable à la deuxième liste */
-
-    position: absolute; /* On élimine le lien de la liste par rapport au reste du
-								menu.Il s'affiche par défaut là où il devrait etre */
-    width: 55px;
-    display: none;
-    margin-left: -7px;
-    margin-top: 1px;
-
-}
-
-#menu > li{ /* Applicable aux élèments de la première liste */
-    
-    display: inline-block;
-    padding:0px 10px 0px 10px; /* add marge between the border and the <li> */
-    margin: -3px;
-}
-
-
-nav > ul li li{ /* Applicable aux élèment d'une sous liste */
-    padding-bottom: 5px;
-    padding-top: 5px;
-}
-
-nav ul li:hover ul{ /* Quand on passe le curseur sur un élèment d'une liste
-											possédant une sous liste*/
-    display: block;
-}
-
-nav > a { /* */
-    color: #ffffff;
-
+section{
+padding-left:0px;
+margin-left:0px;}
 }
 
 /*
 -------------------------------------------------------
-                    Section
+              Fin du responsive design
+-------------------------------------------------------
+*/
+	
+header, section, footer,
+aside, article {
+background: #ffffff;
+margin: 15px;
+display: block;
+border-radius: 5px;
+}
+body {
+background: #F5F4EF;
+color: black;
+font-family: 'Gudea', sans-serif;
+line-height: 1.4;
+margin: 0 15% 0 15%;
+padding: 0;
+text-align: left;
+width: 70%;
+}
+a:link, a:visited {
+color: #fffdfe;
+padding: 0 1px;
+text-decoration: none;
+}
+a:hover, a:active {
+background-color: #8e9bc7;
+border-radius: 3px;
+color: #000000;
+text-decoration: none;
+}
+/* Paragraphs */
+p {margin-bottom: 1.143em;}
+* p:last-child {margin-bottom: 0;}
+q {font-style: italic;}
+strong, b {font-weight: bold;}
+em, i {font-style: italic;}
+nav ul {
+background-color: #7181c7;
+border-radius: 5px;
+width: 98%;
+}
+#form-list {
+float: right;
+}
+#menu > * { /* Applicable à tout le menu ! */
+}
+nav ul { /* Applicable à toute les listes */
+padding:0.5em;
+margin:0; /* Remove margin and padding */
+list-style: none; /* Remove dot before <li> */
+}
+nav li ul { /* Applicable à la deuxième liste */
+position: absolute; /* On élimine le lien de la liste par rapport au reste du
+menu.Il s'affiche par défaut là où il devrait etre */
+width: 55px;
+display: none;
+margin-left: -7px;
+margin-top: 1px;
+}
+#menu > li{ /* Applicable aux élèments de la première liste */
+display: inline-block;
+padding:0px 10px 0px 10px; /* add marge between the border and the <li> */
+margin: -3px;
+}
+nav > ul li li{ /* Applicable aux élèment d'une sous liste */
+padding-bottom: 5px;
+padding-top: 5px;
+}
+nav ul li:hover ul{ /* Quand on passe le curseur sur un élèment d'une liste
+possédant une sous liste*/
+display: block;
+}
+nav > a { /* */
+color: #ffffff;
+}
+/*
+-------------------------------------------------------
+Section
 -------------------------------------------------------
 */
 #about{padding: 10px;}
 #form-login{
-    display: inline-block;
+display: inline-block;
 }
-
 #page-article{
-    padding: 5px;
+padding: 5px;
 }
-
 #post-list a:link, #post-list a:visited{
-    color: #7f5436;
+color: #7f5436;
 }
 section{
-    padding: 5px;
+padding: 5px;
 }
-
-
-
 header.article, footer.footer-article{
-    background: none;
-    border-radius: 0;
-    display: block;
+background: none;
+border-radius: 0;
+display: block;
 }
-
 #articles:hover article:hover {
-    background: #c6925b;
-
+background: #c6925b;
 }
-
 .corps{
-    display: block;
+display: block;
 }
-
 #post-list{
-    list-style: none;
+list-style: none;
 }
-
 .entree{
-    display: block;
-    padding: 1.5em 0;
-
+display: block;
+padding: 1.5em 0;
 }
 .footer-article {margin-bottom: 2em;}
 .comments{
-    display: block;
-
+display: block;
 }
-
 #post-list {list-style: none; margin: 0;}
 #post-list .entree {padding-left: 200px; position: relative;}
 #post-list footer {
-    left: 10px;
-    position: absolute;
-    top: 1.5em;
-    width: 190px;
+left: 10px;
+position: absolute;
+top: 1.5em;
+width: 190px;
 }
-
 .form-span{
-    width: 100%;
-    display: inline-block;
+width: 100%;
+display: inline-block;
 }
-
 label
 {
-    margin-top : 5vh;
-    margin-left : 4vw;
+margin-top : 5vh;
+margin-left : 4vw;
 }
-
 input
 {
-    margin-left : 3vw;
+margin-left : 3vw;
 }
 button
 {
-    display : block;
-    border-radius: 5px;
-    margin-left: 40px;
-    padding: 5px;
+display : block;
+border-radius: 5px;
+margin-left: 40px;
+padding: 5px;
 }
-
-
-
-
 /*
 -------------------------------------------------------
-                    Footer
+Footer
 -------------------------------------------------------
 */
 #contentinfo{
-    padding: 5px;
+padding: 5px;
 }
 #contentinfo a:link, #contentinfo a:visited{
-    color: #7f5436;
+color: #7f5436;
 }
