@@ -1,0 +1,15 @@
+
+<!-- Ajout du formulaire d'ajout d'article :
+.Nom de l'article
+.Image
+.description
+.texte
+-->
+
+	<form method="post" action="index.html">
+	<label for="titre">Titre de l'article : </label><input type="text" id="titre"/>
+	<label for="resume">Resume de l'article : </label><textarea id="resume" placeholder="Resumez votre article en quelques mots"></textarea>
+	<label for="article">Description de l'article : </label><textarea id="article" placeholder="Redigez votre article ici"></textarea>
+	<label for="image">Ajoutez une image : </label> <input type="file" id="image" />
+	<button type="submit">Envoyer</button>
+	</form>

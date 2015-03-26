@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="formulaire.css">
+    <link rel="shortcut icon" href="http://faviconist.com/icons/2f7146f254056e1274c713b6b786b114/favicon.ico" />
+    <meta charset="utf-8" />
+    <title>RideMyBike - Article</title>
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<header id="banner" class="body">
+
+
+    <h1>Ride my bicyclette !</h1>
+    <h3><q>De toutes façon, ils ne se prennent pas au sérieux!</q></h3>
+    <nav>
+        <ul id="menu">
+            <li class="active"><a href="index.html">Accueil</a></li>
+            <li><a href="articles.html">Articles</a>
+                <ul>
+                    <li><a href="article1.html">Article1</a></li>
+                    <li><a href="article2.html">Article2</a></li>
+                    <li><a href="article3.html">Article3</a></li>
+                </ul>
+            </li>
+            <li><a href="about.html">A propos</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li id="form-list">
+                <form method="post" action="articles.html">
+                    <input type="text" name="firstname" placeholder="Search">
+                </form>
+            </li>
+        </ul>
+    </nav>
+</header>
+<section id="articles">
+
+
+    <!-- Ajout du formulaire d'ajout d'article :
+    .Nom de l'article
+    .Image
+    .description
+    .texte
+    -->
+
+    <form method="post" action="error.html">
+        <span><label for="titre">Titre de l'article : </label><input id="zone-titre" type="text" id="titre"/></span>
+        <span><label for="resume">Resume de l'article : </label><textarea id="zone-resume" placeholder="Resumez votre article en quelques mots"></textarea></span>
+        <span><label for="article">Description de l'article : </label><textarea id="zone-article" placeholder="Redigez votre article ici"></textarea></span>
+        <span><label for="image">Ajoutez une image : </label> <input type="file" id="image" /></span>
+        <button id="article-button" type="submit">Envoyer</button>
+    </form>
+
+
+
+
+</section>
+<footer id="contentinfo" class="body">
+    <span class="primary">
+      <strong><a href="http://projetinfo.eu" class="fn url">Ride my poucette</a></strong>
+      <span class="role">Théophile et Philippe</span>
+    </span>
+    <span class="bio"> sont deux passionnés de vélo. Ils roulent la plupart du temps en ville mais s'adonnent les weeks ends aux plasirs des sorties quentakilométrique ! Voici leurs histoires</span>
+    <p>2015 <a href="http://giraudeau.eu">Philippe Giraudeau</a>, Théophile Bodin.</p>
+</footer>
+
+
+</body>
+</html>
